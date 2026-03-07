@@ -19,6 +19,11 @@ document.addEventListener("DOMContentLoaded",function() {
     if ( addBtn ) {
         addBtn.addEventListener("click",addClient);
     }
+    if(submit) {
+        submit.addEventListener("click", function() {
+            alert("You have submitted successfully!");
+        });
+    }
 
     const taskForm = document.getElementById("task-form");
 
@@ -288,4 +293,5 @@ document.addEventListener("DOMContentLoaded",function() {
         localStorage.setItem("clients",JSON.stringify(clients));
         displayTasksForClient();
     }
+
 });
