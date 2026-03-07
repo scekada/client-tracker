@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale: 1.0">
+        <link rel = "stylesheet" href = "Portfolio2.css">
+    </head>
+    <body>
+        <h2>Tasks</h2>
+        <div class = "task-form">
+            <select class = "opt" id = "dropdown">
+                <option value = "">Select Client</option>
+            </select>
+        </div>
+        <form id = "task-form">
+            <input type = "text" id = "task-title" placeholder = "Task Title" required>
+            <input type = "date" id = "task-deadline" required>
+            <textarea id = "task-requirements" placeholder = "Requirements / Notes" required></textarea>
+            <input type = "number" id = "task-payment" placeholder = "Paxment Amount ($)" required>
+            <select id = "task-payment-status">
+                <option value = "">Select Payment Status</option>
+                <option value = "paid">Paid</option>
+                <option value = "not-paid">Not Paid</option>
+            </select>
+            <input type = "number" id = "task-progress" placeholder = "Completion %" min = "0" max = "100" required>
+            <button id = "submit" type = "submit">Add Task</button>
+            <div id = "taskList"></div>
+        </form>
+        <script src = "Portfolio2.js"></script>
+    </body>
+    </html>

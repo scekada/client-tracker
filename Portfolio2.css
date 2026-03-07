@@ -1,0 +1,183 @@
+body {
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4 {
+    font-family: comic;
+}
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    padding-top: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+}
+li {
+    margin: 0 10px;
+}
+li a, .button {
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    text-decoration: none;
+}
+li a:hover,.button:hover {
+    background-color: rgb(219, 202, 180);
+    color: black;
+}
+
+.box {
+    width: 90%;
+    height: 90%;
+    max-width: 1000px;
+    background-color: rgb(199, 117, 58, 0.2);
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 20px;
+}
+.boxa {
+    width: 90%;
+    height: 90%;
+    max-width: 1000px;
+    background-color: rgb(199, 117, 58, 0.2);
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 20px;
+}
+.one {
+    font-size: 20px;
+}
+.two {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.three {
+    font-size: 20px;
+}
+.four {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.five {
+    width: 100px;
+    padding: 10px;
+    height: auto;
+    border-radius: 15px;
+}
+.five:hover {
+    background-color: rgb(219, 202, 180);
+}
+.six {
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+}
+.six:hover {
+    color: gray;;
+}
+
+.cc {
+    border: 2px solid black;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.removeBtn {
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+    background-color: white;
+}
+.removeBtn:hover {
+    background-color: #e60000;
+    color: white;
+}
+.editBtn {
+    border: none;
+    width: 50px;
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.editBtn:hover {
+    background-color: #0059b3;
+    color: white;
+}
+.opt {
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.ccc {
+    border-radius: 15px;
+}
+#task-form {
+    background-color: rgb(219, 202, 180);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+#task-title {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#task-deadline {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#task-requirements {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 100px;
+}
+#task-payment {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#task-progress {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#submit {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#task-payment-status {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
