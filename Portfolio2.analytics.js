@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded",() => {
     let clients = JSON.parse(localStorage.getItem("clients")) || [];
 
-// Clients per month
 
     let clientCounts = {};
     clients.forEach(client => {
@@ -22,7 +21,6 @@ document.addEventListener("DOMContentLoaded",() => {
         }
     });
 
-//Income per month
 
     let incomeCounts = {};
     clients.forEach(client => {
@@ -51,7 +49,6 @@ document.addEventListener("DOMContentLoaded",() => {
         }
     });
 
-// Work done, average progress per month
 
     let progressData = {};
     let progressCounts = {};
@@ -83,4 +80,5 @@ document.addEventListener("DOMContentLoaded",() => {
             }]
         }
     });
+
 });
